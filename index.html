@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Drag and Drop Assignment</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>Drag and Drop</h1>
+    <div id="container">
+      <div class="btn-container">
+        <button id="addRowBtn" class="btn">Add Row</button>
+        <button id="undoBtn" class="btn btn-secondary">Undo</button>
+      </div>
+      <table id="gridTable" class="grid-table">
+        <tr>
+          <td data-id="cellParent1">
+            <div
+              data-id="cell1"
+              draggable="true"
+              class="grid-table-cell"
+              style="background-color: #95afc3"
+            >
+              100
+            </div>
+          </td>
+          <td data-id="cellParent2">
+            <div
+              data-id="cell2"
+              draggable="true"
+              class="grid-table-cell"
+              style="background-color: #c6d7f3"
+            >
+              200
+            </div>
+          </td>
+          <td data-id="cellParent3">
+            <div
+              data-id="cell3"
+              draggable="true"
+              class="grid-table-cell"
+              style="background-color: #295186"
+            >
+              300
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td data-id="cellParent4">
+            <div
+              data-id="cell4"
+              draggable="true"
+              class="grid-table-cell"
+              style="background-color: #4b8f42"
+            >
+              400
+            </div>
+          </td>
+          <td data-id="cellParent5">
+            <div
+              data-id="cell5"
+              draggable="true"
+              class="grid-table-cell"
+              style="background-color: #d7f0c3"
+            >
+              500
+            </div>
+          </td>
+          <td data-id="cellParent6">
+            <div
+              data-id="cell6"
+              draggable="true"
+              class="grid-table-cell"
+              style="background-color: #f2d86b"
+            >
+              600
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td data-id="cellParent7">
+            <div
+              data-id="cell7"
+              draggable="true"
+              class="grid-table-cell"
+              style="background-color: #b51c1c"
+            >
+              700
+            </div>
+          </td>
+          <td data-id="cellParent8">
+            <div
+              data-id="cell8"
+              draggable="true"
+              class="grid-table-cell"
+              style="background-color: #f27405"
+            >
+              800
+            </div>
+          </td>
+          <td data-id="cellParent9">
+            <div
+              data-id="cell9"
+              draggable="true"
+              class="grid-table-cell"
+              style="background-color: #b0b0b0"
+            >
+              900
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="./script.js" async defer></script>
+  </body>
+</html>
